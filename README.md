@@ -44,3 +44,11 @@ scd (Minimum number of significant correct digits)
 
 ## Conclusion:
 solving the OREGO model with 7 solvers, 16 combinations of relative and absolute tolerances, and running each solver 5 times for each tolerance combination
+
+
+## Results:
+The stiff solvers perform better for smaller tolerances, or that the number of steps differs significantly between solvers
+
+# Question 2:
+## Plant model and using two solvers to observe the bursting phenomenon
+#### Solve the Plant model using ode45 (non-stiff solver) and ode15s (stiff solver) to capture the bursting phenomenon
